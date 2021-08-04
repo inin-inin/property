@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/main/home/index",
+    "pages/main/service/index",
+    "pages/main/news/index",
+    "pages/main/center/index"
+  ],
+  "subPackages": [
+    {
+      "root": "pages/service",
+      "pages": [
+        "repair/index"
+      ]
+    },
+    {
+      "root": "pages/news",
+      "pages": [
+        "details/index",
+        "lists/index"
+      ]
+    },
+    {
+      "root": "pages/center",
+      "pages": [
+        "my_house/index",
+        "user_info/index",
+        "pay_list/index"
+      ]
+    },
+    {
+      "root": "pages/public",
+      "pages": [
+        "pay_his/index",
+        "pay/index",
+        "status/index",
+        "add/select_adr/index",
+        "add/select_house_nub/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTitleText": "Vant For Uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
+    "backgroundTextStyle": "dark",
+    "backgroundColor": "#f8f8f8"
+  },
+  "tabBar": {
+    "custom": false,
+    "borderStyle": "black",
+    "color": "#333",
+    "selectedColor": "#000",
+    "list": [
+      {
+        "pagePath": "pages/main/home/index",
+        "iconPath": "./wxcomponents/image/home.png",
+        "selectedIconPath": "./wxcomponents/image/home_select.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/main/service/index",
+        "iconPath": "./wxcomponents/image/service.png",
+        "selectedIconPath": "./wxcomponents/image/service_select.png",
+        "text": "服务"
+      },
+      {
+        "pagePath": "pages/main/news/index",
+        "iconPath": "./wxcomponents/image/news.png",
+        "selectedIconPath": "./wxcomponents/image/news_select.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/main/center/index",
+        "iconPath": "./wxcomponents/image/my.png",
+        "selectedIconPath": "./wxcomponents/image/my_select.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "demo-block": "/wxcomponents/vant/demo-block/index",
+    "van-button": "/wxcomponents/vant/button/index"
+  }
+}

@@ -1,0 +1,85 @@
+.pay-list{
+	position: relative;
+	height:100%;
+	scroll-view{
+		width: 100%;
+		height: 100%;
+	}
+	.up{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 100px;
+			.top-box{
+				swiper,swiper-item{
+					width: 100%;
+					height: 256rpx;
+					image{
+						width: 100%;
+						height: 100%;
+					}
+				}	
+			}
+			.center-box{
+				padding: 45rpx 0;
+				// border: 10px solid;
+				.top{
+					display: flex;
+					justify-content: space-between;
+					padding: 0 30rpx;
+					margin: 0 0 44rpx 0;
+					.my-payment{
+						font-size: 32rpx;
+						line-height: 30rpx;
+						color: #333333;
+					}
+					.record{
+						font-size: 27rpx;
+						line-height: 26rpx;
+						color: #4177E5;
+					}
+				}
+				.center{
+					width: 686rpx;
+					border: 1px solid;
+					margin: 0 auto;
+					background-color: #FFFFFF;
+					box-shadow: 0 3rpx 10rpx 0 rgba(198, 200, 205, 0.24);
+					border-radius: 13rpx;
+					border: 1rpx solid transparent;
+					.center-block{
+						padding: 42rpx 35rpx 35rpx 35rpx;
+					}
+				}
+			}
+	}
+	
+	.bottom{
+		position: absolute;
+		left: 5%;
+		bottom: 82rpx;
+		display: flex;
+		justify-content: center;
+		.btn{
+			margin: 0 auto;
+			width: 697rpx;
+			height: 90rpx;
+			line-height: 90rpx;
+			font-size: 32rpx;
+			font-weight: bold;
+			color: #FFFFFF;
+			background-color: #25BE80;
+			border-radius: 45rpx;
+		}
+	}
+}
+.border{
+	width: 654rpx;
+	display: flex;
+	margin: 0 0 0 30rpx;
+	border: 1rpx solid #D8D8D8;
+}
+.border:nth-last-child(1){
+	border: none;
+}

@@ -1,0 +1,1 @@
+<view class="_div data-v-29733a4f"><view class="box _div data-v-29733a4f">asdasd</view><van-button bind:click="__e" vue-id="04f49097-1" data-event-opts="{{[['^click',[['to']]]]}}" data-com-type="wx" class="data-v-29733a4f" bind:__l="__l" vue-slots="{{['default']}}">asd</van-button></view>

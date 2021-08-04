@@ -1,0 +1,73 @@
+.home{
+	// padding: 42rpx 35rpx 35rpx 35rpx;
+	border-radius: 17rpx;
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	// background-color: #FFFFFF;
+}
+.box .left{
+  display: flex;
+	align-items: center;
+}
+.box .right{
+	flex: 1;
+}
+.box .right .text{
+	margin-left: 30rpx;
+}
+.box .right .text .top{
+	display: flex;
+	justify-content:space-between;
+}
+.box .right .text .top .title{
+	font-size: 29rpx;
+	line-height: 28rpx;
+	font-weight: bold;
+}
+.box .right .text .top .money{
+	font-size: 35rpx;
+	line-height: 26rpx;
+	font-weight: bold;
+}
+.box .right .text .info{
+	font-size: 27rpx;
+	line-height: 26rpx;
+	padding:  15rpx 0 0  0;
+	color: #666666;
+
+}
+.box .right .text .time{
+	display: flex;
+	font-size: 26rpx;
+	line-height: 22rpx;
+	padding: 21rpx 0 0 0;
+	color: #999999;
+}
+
+.into{
+	width: 12rpx;
+	height: 20rpx;
+	background: url('../../static/img/into.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.floor{
+	width: 47rpx;
+	height: 50rpx;
+	background:url('../../static/img/floor.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.water{
+	width: 47rpx;
+	height: 61rpx;
+	background:url('../../static/img/water.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.electric{
+	width: 47rpx;
+	height: 61rpx;
+	background:url('../../static/img/electric.png') center center no-repeat;
+	background-size: 100% 100%;
+}
